@@ -21,9 +21,9 @@ class ViewController: UIViewController {
     
     @IBAction func showMessage(sender: UIButton) {
     //will be called when a user clicks on the button
-
+       let number = Int.random(in: 0 ... 1)
         let selectedEmotion = sender.titleLabel?.text
-        let emojiMessage = customMessages[emojis[selectedEmotion!]!]?[0]
+        let emojiMessage = customMessages[emojis[selectedEmotion!]!]?[number]
         let alertController = UIAlertController(title: emojis[selectedEmotion!], message: emojiMessage, preferredStyle: UIAlertController.Style.alert)
         alertController.addAction(UIAlertAction(title: "Done", style: UIAlertAction.Style.default, handler: nil))
         present(alertController, animated: true, completion: nil)
