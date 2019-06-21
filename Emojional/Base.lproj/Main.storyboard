@@ -26,7 +26,7 @@
                                 <color key="highlightedColor" red="0.44878679513931274" green="0.95892840623855591" blue="0.4461514949798584" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baf-AA-MxE">
-                                <rect key="frame" x="97" y="596" width="220" height="155"/>
+                                <rect key="frame" x="100" y="596" width="220" height="155"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="150"/>
                                 <state key="normal" title="😁"/>
