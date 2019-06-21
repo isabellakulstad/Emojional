@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         let alertController = UIAlertController()
         alertController.addAction(UIAlertAction(title: "Done", style: UIAlertAction.Style.default, handler: nil))
         present(alertController, animated: true, completion: nil)
+        let emojis = ["😭": "ugly crying", "😁": "happy"]
+        let selectedEmotion = sender.titleLabel?.text
     }
     @IBAction func SadFace(_ sender: Any) {
      
